@@ -19,8 +19,6 @@ function stopSongs() {
   sounds.forEach((sound) => {
     const song = document.querySelector(`#${sound}`);
 
-    console.log(song);
-
     song.pause();
     song.currentTime = 0;
   });
